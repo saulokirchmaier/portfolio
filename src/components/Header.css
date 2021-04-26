@@ -1,0 +1,15 @@
+.Header {
+  background-color: #282c34;
+  height: 10vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}

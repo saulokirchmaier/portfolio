@@ -1,0 +1,16 @@
+.Home {
+  align-items: center;
+  color: #282c34;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  gap: 10px;
+  height: 90vh;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.Home img {
+  max-width: 50vw;
+}
