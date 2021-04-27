@@ -1,11 +1,11 @@
 import React from 'react';
-import './Home.css';
-import devImg from '../img/jsdev.png'
-import desktop from '../img/desktop.svg';
+import './Main.css';
+import desktop from '../img/jsdev.png'
+// import desktop from '../img/desktop.svg';
 
 function Home() {
   return (
-    <main className="Home">
+    <main className="Main">
       <section>
         <h1>Olá!</h1>
         <h3>Bem vindo ao meu portifólio de projetos!</h3>
