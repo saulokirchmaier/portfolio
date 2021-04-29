@@ -1,15 +1,36 @@
 .Header {
   background-color: #282c34;
   height: 10vh;
-  min-width: 100vw;
+  min-width: 90vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-size: calc(10px + 1vmin);
-  color: white;
+  color: whitesmoke;
 }
 
 .nav-links {
   display: flex;
   gap: 20px;
+}
+
+.link  {
+  border: 1px solid rgba(0,0,0,0);
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: whitesmoke;
+  border-radius: 4px;
+  color: #282c34;
+}
+
+.link h4 {
+  margin: 5px;
+}
+
+.selected {
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
 }

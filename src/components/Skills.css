@@ -1,0 +1,15 @@
+.Skills {
+  background-color: #282c34;
+  color: whitesmoke;
+}
+
+.description {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80vw;
+}
+
+.description img {
+  max-height: 50vh;
+}

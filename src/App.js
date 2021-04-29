@@ -9,6 +9,8 @@ function App() {
   return (
     <Switch>
       <Route path="/about" component={ About } />
+      {/* <Route path="/projects" component={ About } />
+      <Route path="/contact" component={ About } /> */}
       <Route exact path="/" component={ Home } />
       <Route component={ NotFound } />
     </Switch>  

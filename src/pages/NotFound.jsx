@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="App">
       <Header />
-      <section className="Main">
+      <section className="Content">
         <h1>Ops! Essa página não existe!</h1>
         <img src={ notFoundImg } alt="Not Found!"/>
       </section>
