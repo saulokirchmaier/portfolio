@@ -1,12 +1,12 @@
-.About {
-  background-color: whitesmoke;
+.AboutMe {
   color: #282c34;
 }
 
-.AboutMe .profile-image {
+.profile-image {
   border-radius: 50%;
-  border: 5px solid #282c34;
-  max-height: 40vh;
+  border: 5px solid #2d424d;
+  align-self: center;
+  height: 40vh;
 }
 
 .AboutMe p {
@@ -14,5 +14,6 @@
 }
 
 .AboutMe a {
-  color: #282c34;
+  color: #2fc18c;
+  text-decoration: none;
 }

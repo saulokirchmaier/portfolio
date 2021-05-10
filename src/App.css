@@ -3,11 +3,16 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  text-align: center;
   max-width: 100vw;
   margin: 0 auto;
   padding: 0 auto;
-  overflow-x: hidden;
+  text-align: center;
+  width: 100vw;
+  overflow-x: hidden;  
+}
+
+h1, h2, h3, p {
+  margin: 20px 0;
 }
 
 .Content {
@@ -15,17 +20,64 @@
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  gap: 10px;
-  justify-content: space-around;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  animation: showContent 1s ease-in-out 1;
   width: 100vw;
 }
 
+@keyframes showContent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Content img, .Content p, .Content h3 {
+  max-width: 80vw;
+}
+
 .Content img {
-  max-width: 50vw;
+  max-height: 50vh;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+}
+
+.Contact {
+  height: 100vh;
+}
+
+.Contact img {
+  max-height: 50vh;
+}
+
+.Contact button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.social-network {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  height: 50px;
+}
+
+@media screen and (max-width: 450px) {
+  .social-network {
+    flex-wrap: wrap;
+  }
+
+  .Contact img {
+    max-width: 60vw;
+  }
 }

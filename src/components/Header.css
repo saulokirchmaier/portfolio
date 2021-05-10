@@ -1,12 +1,24 @@
 .Header {
-  background-color: #282c34;
-  height: 10vh;
-  min-width: 90vw;
-  display: flex;
   align-items: center;
-  justify-content: space-around;
+  background-color: #2d424d;
+  color: #e9ebed;
   font-size: calc(10px + 1vmin);
-  color: whitesmoke;
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-name {
+  align-items: center;
+  color: #e9ebed;
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo {
+  height: 10vh;
 }
 
 .nav-links {
@@ -14,23 +26,81 @@
   gap: 20px;
 }
 
-.link  {
-  border: 1px solid rgba(0,0,0,0);
-  color: whitesmoke;
-  text-decoration: none;
+.hamburgerMenu {
+  display: none;
 }
 
-.link:hover {
-  background-color: whitesmoke;
-  border-radius: 4px;
-  color: #282c34;
+.logo-name, .nav-links, .hamburgerMenu {
+  margin: 0 20px;
+}
+
+.link  {
+  border: 1px solid rgba(0,0,0,0);
+  color: #e9ebed;
+  text-decoration: none;
+  transition: 0.5s ease-in;
 }
 
 .link h4 {
   margin: 5px;
 }
 
-.selected {
-  border: 1px solid whitesmoke;
-  border-radius: 4px;
+.nav-links .selected {
+  border: 1px solid #e9ebed;
+}
+
+.link:hover {
+  background-color: #e9ebed;
+  color: #282c34;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  .Header {
+    justify-content: space-between;
+  }
+
+  .logo-name h1 {
+    display: none;
+  }
+
+  .logo {
+    margin: 0 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hamburgerMenu {
+    font-size: 5vh;
+    display: inline;
+    margin: 0 20px;
+  }
+
+  .dropdown-container:hover .dropdown-content {
+    background-color: #2d424d;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 10vh;
+    animation: showMenu 0.5s ease-in-out 1;
+  }
+
+  @keyframes showMenu {
+    from {
+      right: -100px;
+    }
+    to {
+      right: 0;
+    }
+  }
+
+  .link {
+    margin: 10px;
+  }
 }

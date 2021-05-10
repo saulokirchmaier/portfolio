@@ -4,13 +4,15 @@ import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 
 function App() {
   return (
     <Switch>
       <Route path="/about" component={ About } />
-      {/* <Route path="/projects" component={ About } />
-      <Route path="/contact" component={ About } /> */}
+      <Route path="/projects" component={ Projects } />
+      <Route path="/contact" component={ Contact } />
       <Route exact path="/" component={ Home } />
       <Route component={ NotFound } />
     </Switch>  

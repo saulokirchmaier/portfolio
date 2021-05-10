@@ -1,15 +1,44 @@
 .Skills {
-  background-color: #282c34;
-  color: whitesmoke;
+  background-color: #2d424d;
+  color: #e9ebed;
 }
 
-.description {
-  align-items: center;
+.my-skils {
   display: flex;
   justify-content: space-evenly;
   width: 80vw;
 }
 
-.description img {
+.my-skils img {
   max-height: 50vh;
+}
+
+.rocket {
+  align-self: flex-end;
+  /* margin: auto 0; */
+}
+
+.skill {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skill img {
+  height: 30px;
+}
+
+.skill p {
+  margin: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .my-skils {
+    flex-direction: column;
+  }
+
+  .flex-order-2 {
+    order: 3;
+  }
 }
