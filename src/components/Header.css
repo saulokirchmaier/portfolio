@@ -2,11 +2,14 @@
   align-items: center;
   background-color: #2d424d;
   color: #e9ebed;
-  font-size: calc(10px + 1vmin);
   display: flex;
+  font-size: calc(10px + 1vmin);
   height: 10vh;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .logo-name {

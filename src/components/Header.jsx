@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from  'react-router-dom';
 // import logo from '../img/SK-logo-invertido.png';
-import logo from '../img/SK-logo-final-reto.png';
+import logo from '../img/SK-logo-final-reto-3.png';
 import './Header.css';
 import { FiMenu } from "react-icons/fi";
 

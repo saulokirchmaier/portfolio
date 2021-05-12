@@ -1,0 +1,70 @@
+.Projects {
+  max-width: 1200px;
+  width: 80vw;
+  /* z-index: initial; */
+}
+
+.cards {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.flip-card {
+  background-color: transparent;
+  color: #e9ebed;
+  height: 40vh;
+  max-height: 350px;
+  max-width: 350px;
+  perspective: 1000px;
+  width: 40vw;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: calc(10px + 1vmin);
+  padding: 0 10px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #98d9d9;
+  color: #2d424d;
+}
+
+.flip-card-front img {
+  height: 75%;
+  width: 100%;
+}
+
+
+.flip-card-back {
+  background-color: #2d424d;
+  color: #e9ebed;
+  transform: rotateY(180deg);
+}

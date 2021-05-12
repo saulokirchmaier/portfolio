@@ -11,19 +11,20 @@
   overflow-x: hidden;  
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
   margin: 20px 0;
 }
 
 .Content {
   align-items: center;
+  animation: showContent 2s ease-in-out 1;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   gap: 20px;
   justify-content: space-evenly;
+  margin-top: 10vh;
   padding: 10px 0;
-  animation: showContent 1s ease-in-out 1;
   width: 100vw;
 }
 
