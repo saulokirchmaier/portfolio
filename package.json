@@ -2,7 +2,7 @@
   "name": "new_page_potifolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://https://saulokirchmaier.github.io/portfolio",
+  "homepage": "https://saulokirchmaier.github.io/portfolio",
   "dependencies": {
     "@icons-pack/react-simple-icons": "^4.2.0",
     "@testing-library/jest-dom": "^5.11.9",
