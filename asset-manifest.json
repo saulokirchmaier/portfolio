@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "//saulokirchmaier.github.io/portfolio/static/css/main.9fcd3e79.chunk.css",
+    "main.js": "//saulokirchmaier.github.io/portfolio/static/js/main.5a9f1779.chunk.js",
+    "main.js.map": "//saulokirchmaier.github.io/portfolio/static/js/main.5a9f1779.chunk.js.map",
+    "runtime-main.js": "//saulokirchmaier.github.io/portfolio/static/js/runtime-main.34322549.js",
+    "runtime-main.js.map": "//saulokirchmaier.github.io/portfolio/static/js/runtime-main.34322549.js.map",
+    "static/js/2.cf57a422.chunk.js": "//saulokirchmaier.github.io/portfolio/static/js/2.cf57a422.chunk.js",
+    "static/js/2.cf57a422.chunk.js.map": "//saulokirchmaier.github.io/portfolio/static/js/2.cf57a422.chunk.js.map",
+    "index.html": "//saulokirchmaier.github.io/portfolio/index.html",
+    "static/css/main.9fcd3e79.chunk.css.map": "//saulokirchmaier.github.io/portfolio/static/css/main.9fcd3e79.chunk.css.map",
+    "static/js/2.cf57a422.chunk.js.LICENSE.txt": "//saulokirchmaier.github.io/portfolio/static/js/2.cf57a422.chunk.js.LICENSE.txt",
+    "static/media/Asset9.fd737954.svg": "//saulokirchmaier.github.io/portfolio/static/media/Asset9.fd737954.svg",
+    "static/media/SK-logo-final-reto-3.b9a21abb.png": "//saulokirchmaier.github.io/portfolio/static/media/SK-logo-final-reto-3.b9a21abb.png",
+    "static/media/SK-logo-final.95c40942.png": "//saulokirchmaier.github.io/portfolio/static/media/SK-logo-final.95c40942.png",
+    "static/media/contact.d7330bb7.svg": "//saulokirchmaier.github.io/portfolio/static/media/contact.d7330bb7.svg",
+    "static/media/desktop.e49412f8.svg": "//saulokirchmaier.github.io/portfolio/static/media/desktop.e49412f8.svg",
+    "static/media/gmail.6770ed08.png": "//saulokirchmaier.github.io/portfolio/static/media/gmail.6770ed08.png",
+    "static/media/island.bcf96cfb.svg": "//saulokirchmaier.github.io/portfolio/static/media/island.bcf96cfb.svg",
+    "static/media/linkedin.32e20978.svg": "//saulokirchmaier.github.io/portfolio/static/media/linkedin.32e20978.svg",
+    "static/media/rocket.13597cee.svg": "//saulokirchmaier.github.io/portfolio/static/media/rocket.13597cee.svg",
+    "static/media/sauloimg.2958d7b4.jpeg": "//saulokirchmaier.github.io/portfolio/static/media/sauloimg.2958d7b4.jpeg",
+    "static/media/whatsapp.6be8fe68.png": "//saulokirchmaier.github.io/portfolio/static/media/whatsapp.6be8fe68.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34322549.js",
+    "static/js/2.cf57a422.chunk.js",
+    "static/css/main.9fcd3e79.chunk.css",
+    "static/js/main.5a9f1779.chunk.js"
+  ]
+}
