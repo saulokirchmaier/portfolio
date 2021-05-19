@@ -5,6 +5,7 @@ import linkedin from '../img/linkedin.svg';
 import github from '../img/github.png';
 import gmail from '../img/gmail.png';
 import whatsapp from '../img/whatsapp.png';
+import logo from '../img/SK-logo-final.png';
 
 function About() {
   return (

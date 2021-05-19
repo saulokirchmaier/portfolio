@@ -1,0 +1,12 @@
+.cards {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cards:first-child {
+  background-color: aqua;
+  margin-bottom: 1px solid #000;
+}

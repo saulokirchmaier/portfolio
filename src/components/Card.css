@@ -1,23 +1,9 @@
-.Projects {
-  max-width: 1200px;
-  width: 80vw;
-  /* z-index: initial; */
-}
-
-.cards {
-  align-items: flex-start;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto;
-}
-
 .flip-card {
   background-color: transparent;
   color: #e9ebed;
   height: 40vh;
-  max-height: 350px;
-  max-width: 350px;
+  max-height: 450px;
+  max-width: 450px;
   perspective: 1000px;
   width: 40vw;
 }
@@ -67,4 +53,11 @@ p {
   background-color: #2d424d;
   color: #e9ebed;
   transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 450px) {
+  .flip-card {
+    height: 80vw;
+    width: 80vw;
+  }
 }

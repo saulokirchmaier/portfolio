@@ -73,6 +73,12 @@ h1, h2, h3, h4, p {
   height: 50px;
 }
 
+.Projects {
+  max-width: 1400px;
+  width: 80vw;
+  padding-bottom: 40px;
+}
+
 @media screen and (max-width: 450px) {
   .social-network {
     flex-wrap: wrap;
