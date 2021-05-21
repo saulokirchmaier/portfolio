@@ -3,11 +3,11 @@ export const data = [
     type: 'React',
     projects: [
       {
-        title: 'Facebook',
-        desciption: 'Desenvolvido para o curso da Tybe, foi recriado a página de login antiga do facebook. Desenvolvida em dupla, este projeto foi bem desafiador e muito produtivo.',
-        technologies: ['JavaScript', 'HTML', 'CSS'],
-        url: 'https://saulokirchmaier.github.io/facebook_signup/',
-        thumbnail: 'https://i.ibb.co/5BYTLzt/facebook-login.png',
+        title: 'Github Search',
+        desciption: 'Aplicação de busca de usuários do Github,  mostra os 5 primeiros usuários corespondentes e 3 repositórios mais atualizados do usuário selecionado.',
+        technologies: ['React', 'Redux', 'HTML', 'CSS'],
+        url: 'https://github-search-users-repos.herokuapp.com/',
+        thumbnail: 'https://i.ibb.co/KWV2tjZ/github-search.png',
       },
       {
         title: 'Lista de tarefas',
