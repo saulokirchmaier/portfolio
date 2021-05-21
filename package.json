@@ -1,8 +1,8 @@
 {
-  "name": "new_page_potifolio",
+  "name": "potrfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://saulokirchmaier.github.io",
+  "homepage": "https://saulokirchmaier.github.io/",
   "dependencies": {
     "@icons-pack/react-simple-icons": "^4.2.0",
     "@testing-library/jest-dom": "^5.11.9",
