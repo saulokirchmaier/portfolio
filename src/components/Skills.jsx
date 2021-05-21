@@ -19,8 +19,9 @@ function Skills() {
       <h1>Skills</h1>
       <div className="my-skils">
         <div className="flex-order-1">
-          <div>
-            <h3>Front-End <FiCode /></h3>
+          <div className="stack">
+            <h3>Front-End</h3>
+            <FiCode />
           </div>
           <div className="skill">
             <p>JavaScript</p>
@@ -61,7 +62,10 @@ function Skills() {
         </div>
         <img src={ rocket } alt="Rocket" className="rocket flex-order-2"/>
         <div className="flex-order-3">
-          <h3>Back-End <FiCode /></h3>
+          <div className="stack">
+            <h3>Back-End</h3>
+            <FiCode />
+          </div>
           <p>Incoming...</p>
         </div>
       </div>
