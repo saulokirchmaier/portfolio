@@ -13,7 +13,7 @@ export const data = [
       {
         title: 'Github Search',
         desciption: 'Aplicação de busca de usuários do Github,  mostra os 5 primeiros usuários corespondentes e 3 repositórios mais atualizados do usuário selecionado.',
-        technologies: ['React', 'Redux', 'HTML', 'CSS'],
+        technologies: ['React', 'Redux', 'HTML', 'CSS', 'Heroku'],
         url: 'https://github-search-users-repos.herokuapp.com/',
         thumbnail: 'https://i.ibb.co/KWV2tjZ/github-search.png',
         visit: "Acesse o site!"

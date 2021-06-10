@@ -10,6 +10,9 @@ import { Javascript,
   Github,
   Jest,
   Testinglibrary,
+  Mysql,
+  Mongodb,
+  NodeDotJs
 } from '@icons-pack/react-simple-icons';
 import { FiCode } from "react-icons/fi";
 
@@ -66,7 +69,18 @@ function Skills() {
             <h3>Back-End</h3>
             <FiCode />
           </div>
-          <p>Incoming...</p>
+          <div className="skill">
+            <p>MySQL</p>
+            <Mysql />
+          </div>
+          <div className="skill">
+            <p>MongoDB</p>
+            <Mongodb />
+          </div>
+          <div className="skill">
+            <p>Node.JS</p>
+            <NodeDotJs />
+          </div>
         </div>
       </div>
     </div>
