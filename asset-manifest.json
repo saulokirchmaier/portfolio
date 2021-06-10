@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.744b6958.chunk.css",
-    "main.js": "/portfolio/static/js/main.f3b1ffdc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f3b1ffdc.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c04557d1.chunk.css",
+    "main.js": "/portfolio/static/js/main.78e7d59b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.78e7d59b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
     "static/js/2.360b6121.chunk.js": "/portfolio/static/js/2.360b6121.chunk.js",
     "static/js/2.360b6121.chunk.js.map": "/portfolio/static/js/2.360b6121.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.744b6958.chunk.css.map": "/portfolio/static/css/main.744b6958.chunk.css.map",
+    "static/css/main.c04557d1.chunk.css.map": "/portfolio/static/css/main.c04557d1.chunk.css.map",
     "static/js/2.360b6121.chunk.js.LICENSE.txt": "/portfolio/static/js/2.360b6121.chunk.js.LICENSE.txt",
     "static/media/Asset9.fd737954.svg": "/portfolio/static/media/Asset9.fd737954.svg",
     "static/media/SK-logo-final-reto-3.b9a21abb.png": "/portfolio/static/media/SK-logo-final-reto-3.b9a21abb.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.a9f76519.js",
     "static/js/2.360b6121.chunk.js",
-    "static/css/main.744b6958.chunk.css",
-    "static/js/main.f3b1ffdc.chunk.js"
+    "static/css/main.c04557d1.chunk.css",
+    "static/js/main.78e7d59b.chunk.js"
   ]
 }
