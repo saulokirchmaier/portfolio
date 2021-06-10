@@ -10,3 +10,17 @@
   background-color: aqua;
   margin-bottom: 1px solid #000;
 }
+
+.flip-card-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.flip-card-back h4, .flip-card-back h5, .flip-card-back p {
+  margin: 10px;
+}
+
+.visit:hover {
+  color: #5b828f;
+}

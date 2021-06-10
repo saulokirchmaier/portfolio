@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cards.css';
 
-function Card({ project: { title, desciption, technologies, url, thumbnail } }) {
+function Card({ project: { title, desciption, technologies, url, thumbnail, visit } }) {
   return (
     <div className="flip-card">
       <div className="flip-card-inner">
@@ -19,6 +19,7 @@ function Card({ project: { title, desciption, technologies, url, thumbnail } }) 
               <p>{ desciption }</p>
               <h5>Tecnologias</h5>
               <p>{technologies.map((item) => `${item} `) }</p>
+              <h5 className="visit">{ visit }</h5>
           </div>
         </a>
       </div>
