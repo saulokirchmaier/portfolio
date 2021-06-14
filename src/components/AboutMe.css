@@ -2,9 +2,7 @@
   color: #282c34;
 }
 
-.profile-image {
-  border-radius: 50%;
-  border: 5px solid #2d424d;
+.logo-image {
   align-self: center;
   height: 40vh;
 }
@@ -13,7 +11,13 @@
   width: 80vw;
 }
 
-.AboutMe a {
+.trybe {
   color: #2fc18c;
   text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+  .logo-image {
+    height: 20vh;
+  }
 }

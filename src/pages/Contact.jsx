@@ -4,15 +4,13 @@ import contact from '../img/contact.svg';
 import linkedin from '../img/linkedin.svg';
 import github from '../img/github.png';
 import gmail from '../img/gmail.png';
-import whatsapp from '../img/whatsapp.png';
-import logo from '../img/SK-logo-final.png';
 
 function About() {
   return (
     <div className="App">
       <Header />
       <section className="Content Contact">
-        <h1>Contatc me!</h1> 
+        <h1>Contatc me!</h1>
         <div className="container">
           <p>Obrigado por chegar até aqui. Se você gostou do que encontrou e quer conhecer um pouco mais sobre mim e meus trabalhos me encontre nas redes socias ou mande um email para <strong>saulokirchmaier@gmail.com</strong>.</p>
           <div className="social-network">

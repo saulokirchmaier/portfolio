@@ -52,6 +52,13 @@ h1, h2, h3, h4, p {
 .Contact {
   height: 100vh;
 }
+/* 
+.profile-image {
+  border-radius: 50%;
+  border: 5px solid #2d424d;
+  align-self: center;
+  height: 40vh;
+} */
 
 .Contact img {
   max-height: 50vh;
@@ -76,7 +83,6 @@ h1, h2, h3, h4, p {
 .social-network a p {
   background-color: #98d9d9;
 }
-
 
 .icon {
   height: 50px;

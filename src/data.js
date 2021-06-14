@@ -11,11 +11,27 @@ export const data = [
         visit: "Acesse o site!"
       },
       {
+        title: 'TrybeWallet',
+        desciption: 'Aplicação web para gerenciamento de carteira de viagens, faz requisições para a API "https://economia.awesomeapi.com.br/json/all", e converte os gastos totais da aplicação, podendo adicionar, editar e deletar os gastos.',
+        technologies: ['React', 'Redux', 'HTML', 'CSS'],
+        url: 'https://saulokirchmaier.github.io/trybewallet/',
+        thumbnail: 'https://i.ibb.co/M15LNwm/trybewallet.png',
+        visit: "Acesse o site!"
+      },
+      {
         title: 'Github Search',
         desciption: 'Aplicação de busca de usuários do Github,  mostra os 5 primeiros usuários corespondentes e 3 repositórios mais atualizados do usuário selecionado.',
         technologies: ['React', 'Redux', 'HTML', 'CSS', 'Heroku'],
         url: 'https://github-search-users-repos.herokuapp.com/',
         thumbnail: 'https://i.ibb.co/KWV2tjZ/github-search.png',
+        visit: "Acesse o site!"
+      },
+      {
+        title: 'No Master Store',
+        desciption: 'Aplicação web de uma loja online. Primeiro projeto feito em grupo na Trybe. Sem utilização de React Hooks, Redux ou outras bibliotecas, para a experiência das "props drilling" e aprendizado base.',
+        technologies: ['React', 'HTML', 'CSS'],
+        url: 'https://saulokirchmaier.github.io/no-master-store-shopping/#/',
+        thumbnail: 'https://i.ibb.co/wr99Zgy/No-Master-Store.png',
         visit: "Acesse o site!"
       }
     ]

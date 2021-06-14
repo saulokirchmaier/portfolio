@@ -6,10 +6,9 @@
   margin: 0 auto;
 }
 
-.cards:first-child {
-  background-color: aqua;
+/* .cards:first-child {
   margin-bottom: 1px solid #000;
-}
+} */
 
 .flip-card-back {
   display: flex;
